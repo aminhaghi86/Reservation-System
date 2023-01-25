@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.container button {
+	border: none;
+	width: 12rem;
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	background-color: #00f6ed;
+	font-size: 1rem;
+	color: #000;
+	font-weight: 600;
+	transition: all 1s;
+}
+.container button:hover {
+	transform: translateY(0.3rem);
+	background-color: #f45b69;
+	color: aliceblue;
+}

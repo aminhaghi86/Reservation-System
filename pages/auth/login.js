@@ -25,7 +25,7 @@ export default function Login() {
 		if (user) {
 			route.push("/dashboard");
 		} else {
-			console.log("login");
+			route.push("/auth/login");
 		}
 	}, [user]);
 
